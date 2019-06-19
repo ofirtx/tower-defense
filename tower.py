@@ -104,3 +104,16 @@ class PurpleTower(Tower):
         self.radius = 65
         self.slowDown = True
         self.cost = 20
+
+
+###########################################
+# Pink Tower class
+###########################################
+
+class PurpleTower(Tower):
+    def __init__(self, row, col, board, cellDim):
+        super().__init__(row, col, board, cellDim)
+        self.color = "#e50676"
+        self.radius = 65
+        self.slowDown = True
+        self.cost = 20
