@@ -110,7 +110,7 @@ class PurpleTower(Tower):
 # Pink Tower class
 ###########################################
 
-class PurpleTower(Tower):
+class PinkTower(Tower):
     def __init__(self, row, col, board, cellDim):
         super().__init__(row, col, board, cellDim)
         self.color = "#e50676"
